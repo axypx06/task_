@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVP Routing Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    </link>
+
+<body>
+    <div id="map"></div>
+    <div class="search">
+        <input type="text" id="addressInput" placeholder="Enter a location"></input>
+        <button onclick="markLocation()">Mark Location</button>
+        <button onclick="generateRoute()">Plan Route</button>
+    </div>
+    <div id="dropdown-container">
+        <select id="dropdown">
+            <!-- Options will be dynamically added here -->
+          </select>
+          <button id="markAsVisitedBtn">Mark as visited</button>
+    </div>
+    <div class="social-icons">
+        <p>Contact Me Here</p>
+        <a href="mailto:priyanshiir@gmail.com.com" target="_blank" class="icon-link"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/axypx06" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+    </div>
+    
+    <script src="script.js"></script>
+
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVjIJHFJNKzVYmtSd1p2aFuRh8jEx7XKo&libraries=places,geometry&callback=initMap"
+        async defer></script>
+
+
+</html>

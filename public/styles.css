@@ -1,0 +1,71 @@
+#map {
+    height: 590px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+body {
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.search {
+    text-align: center;
+}
+
+.search input {
+    border: 0;
+    border-bottom: 1px solid #bb1bc0;
+    background: transparent;
+    width: 25%;
+    padding: 8px 0 5px 0;
+    font-size: 16px;
+    color: black;
+   
+}
+#addressInput::placeholder {
+    color: rgb(49, 48, 48); 
+}
+
+.search input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bb1bc0;
+}
+
+button {
+    color: #fff;
+    background-color: #bb1bc0;
+    outline: none;
+    border: 0;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+#dropdown-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#dropdown{
+    height: 35px;
+    border-radius: 10px;
+}
+.social-icons {
+    text-align: right; 
+    margin-bottom: 20px; 
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.social-icons .icon-link i {
+    color: #bb1bc0;
+    font-size: 24px; 
+    margin: 0 10px; 
+}
